@@ -16,4 +16,6 @@ Die Y-Koordinate entspricht der Anzahl unterschiedlicher Buchstaben im Wort, als
 
 Die Z-Koordinate entspricht der Anzahl unterschiedlicher Vokale (a, e, i, o, u), die im Wort verwendet werden.
 
+Die Implementierung ist in der Klasse Room.java in der Methode getCoords() zu finden.
+
 Bei der Suche wird für ein eingegebenes Wort zunächst ebenfalls diese Koordinate berechnet. Anschließend werden alle Wörter in den umliegenden Zellen des Raums als Kandidaten betrachtet, und aus diesen Kandidaten wird dasjenige mit der geringsten Levenshtein-Distanz zum eingegebenen Wort als Ergebnis zurückgegeben
