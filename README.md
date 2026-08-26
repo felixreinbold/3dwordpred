@@ -1,4 +1,4 @@
-## kleines Just-for-Fun-Projekt zum Lernen.
+# kleines Just-for-Fun-Projekt zum Lernen.
 
 Das Programm ordnet eine Menge an Wörtern anhand ihrer Eigenschaften in einem dreidimensionalen Raum ein. Auf Basis dieser Einordnung können in der Main-Methode Eingaben gemacht werden, zum Beispiel falsch geschriebene Wörter, die dann anhand ihrer eigenen Koordinaten dem am besten passenden bekannten Wort zugeordnet werden sollen. Es handelt sich quasi um eine sehr einfache, fehleranfällige Autokorrektur.
 
@@ -6,7 +6,7 @@ Die Idee zu diesem Projekt entstand aus der Überlegung, wie LLMs Wörter als Pu
 
 Aktuell besteht das Vokabular aus einer festen Liste deutscher Städtenamen, die beim Start automatisch in den Raum eingeordnet werden.
 
-# Koordinaten
+## Koordinaten
 
 Jedes Wort wird auf drei Koordinaten abgebildet, die zusammen seine Position im Raum bestimmen:
 
